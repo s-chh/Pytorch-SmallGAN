@@ -1,7 +1,14 @@
 # Pytorch-SmallGAN-MNIST-FashionMNIST-USPS
 Pytorch implementation of a small GAN network for MNIST, FashionMNIST and USPS dataset.
 
-Generator has 7k parameters and Discriminator has 3k parameters.
+### Parameters
+For 28x28 image size
+Generator: 6,897
+Discriminator: 3,001
+
+For 16x16 image size
+Generator: 3,729
+Discriminator: 2,473
 
 <br>
 
