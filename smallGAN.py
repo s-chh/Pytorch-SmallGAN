@@ -15,7 +15,7 @@ EPOCHS = 100
 Z_DIM = 5
 LOAD_MODEL = False
 CHANNELS = 1
-DB = 'FashionMNIST' # MNIST | FashionMNIST | USPS
+DB = 'MNIST' # MNIST | FashionMNIST | USPS
 
 if DB == 'MNIST' or DB == 'FashionMNIST':
     IMAGE_SIZE = 28
@@ -63,7 +63,7 @@ elif DB=='FashionMNIST':
 elif DB=='USPS':
     dataset = datasets.USPS(db_path, train=True, download=True, transform=transform)
 
-data_loader = torch.utils.data.DataLoader(dataset=dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=8, drop_last=True)
+data_loader = torch.utils.data.DataLoader(dataset=dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=0, drop_last=True)
 
 
 # Networks
