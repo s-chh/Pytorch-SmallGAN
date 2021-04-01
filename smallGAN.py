@@ -8,8 +8,6 @@ from torchvision import datasets
 from torchvision import transforms
 import torch.nn as nn
 import torch.nn.functional as F
-from torchsummary import summary
-import pdb
 
 # Arguments
 BATCH_SIZE = 256
@@ -124,10 +122,8 @@ if LOAD_MODEL:
 # Model Summary
 print("------------------Generator------------------")
 print(gen)
-summary(gen, (Z_DIM,), device='cpu')
 print("------------------Discriminator------------------")
 print(dis)
-summary(dis, (CHANNELS, IMAGE_SIZE, IMAGE_SIZE), device='cpu')
 
 # Define Optimizers
 g_opt = optim.Adam(gen.parameters(), lr=0.0002, betas=(0.5, 0.999), weight_decay=2e-5)
