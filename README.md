@@ -1,4 +1,4 @@
-# Pytorch-Small GAN-MNIST-FashionMNIST-USPS
+# Pytorch-Small GAN
 Pytorch implementation of a small GAN network for MNIST, FashionMNIST and USPS dataset.
 
 ### Parameters
