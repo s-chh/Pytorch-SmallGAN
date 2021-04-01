@@ -1,6 +1,8 @@
 # Pytorch-SmallGAN-MNIST-FashionMNIST-USPS
 Pytorch implementation of a small GAN network for MNIST, FashionMNIST and USPS dataset.
 
+Generator has 7k parameters and Discriminator has 3k parameters.
+
 <br>
 
 Change the DB variable to change the dataset.
