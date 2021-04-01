@@ -4,7 +4,7 @@ Pytorch implementation of a small GAN network for MNIST, FashionMNIST and USPS d
 ### Parameters
 Image Size | Generator | Disriminator
 --- | --- | ---
-32x32 | 6,897 | 3,001
+28x28 | 6,897 | 3,001
 16x16 | 3,729 | 2,473
 
 <br>
