@@ -10,6 +10,10 @@ For 16x16 image size<br>
 Generator: 3,729<br>
 Discriminator: 2,473<br>
 
+Generator | Disriminator
+--- | ---
+6,897 | 3,001
+
 <br>
 
 Change the DB variable to change the dataset.
